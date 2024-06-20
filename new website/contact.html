@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+   
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        
+       
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+.logo h2{
+    color: white;
+    padding-left:80px;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Borel', cursive;
+color: white;
+}
+
+.logo{
+
+    width: 55%;
+    border:;
+    display: flex;
+    justify-content:;
+    align-items: center;
+}
+.background{
+    background-color:black;
+    background-position:top ;
+    
+}
+.navbar{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+.nav-list{
+width: 70%;
+display: flex;
+align-items: center;
+border:;
+
+}
+.nav-list li{
+    border: ;
+list-style: none;
+padding: 26px 20px;
+font-size: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+.nav-list li a:hover{
+    background: -webkit-linear-gradient(0deg, #f7f6f6 0%, #e0a348 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.rightnav{
+  background-color: ;
+  width: 30%;
+  text-align: right;
+  color: white;
+  font-family: 'Borel', cursive;
+  color: white;
+  font-size: 14px;
+padding-right: 50px;
+}
+.rightnav a{
+text-decoration: none;
+color: white;
+}
+.burger{
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+display: none;
+}
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+.contact{
+
+width: ;
+height: px;
+border: ;
+margin-top: ;
+display: flex;
+
+align-items: center;
+
+}
+.whatsapp{
+width:62%;
+height:500px;
+border: ;
+
+display: flex;
+flex-direction: column;
+
+}
+.whatsapp img{
+    width:40% ;
+margin-left:60px ;
+margin-top: 60px;
+flex-direction: column;
+
+
+}
+.whatsapp h1{
+    font-size: 30px;
+margin-left:170px;
+padding-top: 10px;
+color:  rgb(55, 65, 57);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whatsapp h2{
+margin-left: 170px;
+color: rgb(11, 201, 11);
+font-size: 2vw;
+padding-top: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whatsapp h2 a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(11, 201, 11);
+text-decoration: none;
+}
+.box{
+width: 60vw;
+margin-top: 10px;
+align-items: center;
+justify-content:left;
+display: flex;
+height: 60px;
+border: ;
+
+}
+.box button{
+    width: 25vw;
+    height: 50px;
+    margin-left: 170px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: solid 2px white;
+}
+.box button a{
+    text-decoration: none;
+    color: white;
+   
+}
+.box button a:hover{
+    background: -webkit-linear-gradient(0deg, #f7f6f6 0%, #e0a348 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.whatsapp2{
+width: 40%;
+height: 500px;
+border:;
+
+display: flex;
+flex-direction:column;
+}
+
+.whatsapp2 h1{
+    margin-top: 14vw;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:;
+    position: ;
+    font-size: 2.3vw;
+margin-top: px;
+color:  rgb(55, 65, 57);
+}
+.whatsapp2 h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+color:  rgb(55, 65, 57);
+}
+.foot{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    background-color: black ;
+}
+.log{
+    width: 100%;
+    height: 60px;
+    justify-content:center ;
+    text-align: center;
+}
+.log h1{
+    width: 80%;
+    height: 40px;
+    
+    margin-left: 70px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: black ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logi h1{
+    width: 100%;
+    height: 40px;
+    
+    margin-left: 70px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(235, 13, 50) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+    .log h1{
+       margin-left: 20px;
+       font-size: 16px;
+       
+   }
+   .logi h1{
+       margin-left: 0px;
+       
+   }
+    .logo h2{
+padding-left: 0px;
+}
+.logo{
+width:200px;
+
+justify-content: center;
+}
+    .logo h2{
+padding-top: 20px;
+    }
+    .nav-list li{
+    border: ;
+list-style: none;
+padding: 10px 20px;
+font-size: 15px;
+font-family: 'Borel', cursive;
+}.nav-list{
+    color: #f7f6f6;
+}
+.nav-list li a:hover{
+    background: -webkit-linear-gradient(0deg, #f7f6f6 0%, #e0a348 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.background{
+    background-color:black;
+    background-position:left ;
+}
+.rightnav{
+    border: ;
+    width: 100%;
+}
+    .contact{
+
+
+
+border:;
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.whatsapp{
+width:100%;
+height:100%;
+border: ;
+
+display: flex;
+flex-direction: column;
+
+}
+.whatsapp img{
+    width: 50%;
+margin-left:10px ;
+margin-top: 60px;
+flex-direction: column;
+
+
+
+}
+
+.whatsapp h1{
+    font-size: 24px;
+    text-align: center;
+margin-left:0px;
+padding-top: 10px;
+color:  rgb(55, 65, 57);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whatsapp h2{
+margin-left: 0px;
+color: rgb(11, 201, 11);
+font-size: 18px;
+padding-top: px;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+width: 100vw;
+margin-top: 10px;
+align-items: center;
+justify-content:center;
+display: flex;
+height: 60px;
+border:;
+
+}
+.box button{
+    width: 60vw;
+    height: 50px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+}
+.whatsapp2{
+width: 100%;
+height: 180px;
+border: ;
+
+display: ;
+flex-direction: column;
+}
+
+.whatsapp2 h1{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:;
+    position: ;
+    font-size: 24px;
+margin-top: px;
+color:  rgb(55, 65, 57);
+}
+.whatsapp2 h4{
+font-size: 18px;
+padding-top: 10px;
+text-align: center;
+color:  rgb(55, 65, 57);
+}
+
+.h-nav-resp{
+    height: 72px;
+  }
+  .v-class-resp{
+  opacity: 0;
+  }
+  
+
+}
+@media only screen and (max-width: 1140px) {
+    .logo h2{
+padding-top: 20px;
+    }
+    .nav-list li{
+    border: ;
+list-style: none;
+padding: 10px 20px;
+font-size: 15px;
+font-family: 'Borel', cursive;
+}
+.rightnav{
+    border: ;
+    width: 100%;
+}
+
+    .contact{
+
+
+
+border:;
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+
+
+.box{
+width: 100vw;
+margin-top: 10px;
+align-items: center;
+justify-content:center;
+display: flex;
+height: 60px;
+border:;
+
+}
+.box button{
+    width: 60vw;
+    height: 50px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.navbar{
+  flex-direction: column;
+}
+.nav-list{
+flex-direction: column;
+align-items: center;
+}
+
+.logo h2{
+padding-left: 0px;
+}
+.logo{
+width:200px;
+
+justify-content: center;
+}
+.rightnav{
+ 
+padding-right: 0px;
+text-align: center;
+
+}
+.whatsapp{
+width:100%;
+height:100%px;
+border: ;
+
+display: flex;
+flex-direction: column;
+
+}
+.whatsapp h1{
+    font-size: 24px;
+    
+}
+.whatsapp2 h1{
+font-size: 35px;
+}
+.whatsapp2{
+    border: ;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+.whatsapp img{
+    width:40% ;
+margin-left:60px;
+margin-top: 60px;
+flex-direction: column;
+
+
+}
+.whatsapp2 h1{
+    margin-top: 0px;
+    text-align: center;
+    
+    border:;
+    position: ;
+    font-size: 24px;
+margin-top: px;
+color:  rgb(55, 65, 57);
+}
+.whatsapp2 h4{
+font-size: 18px;
+padding-top: 10px;
+text-align: center;
+color:  rgb(55, 65, 57);
+}
+.burger{
+  display: block;
+}
+.h-nav-resp{
+    height: 60px;
+  }
+  .v-class-resp{
+  opacity: 0;
+  }
+  .nav8 ul li{
+font-family: 'Borel', cursive;
+padding-left: 0px;
+font-size: 14px;
+color:white;
+
+
+}
+
+
+}
+    </style>
+</head>
+<body>
+   <nav class="navbar background h-nav-resp" >
+<ul class="nav-list v-class-resp">
+<div class="logo"><h2>T.LUXURY</h2></h2></div>
+<li><a href="index.html">Home</a></li>
+<li><a href="sale.html">Sale</a></li>
+<li><a href="product.html">Product</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+<div class="rightnav v-class-resp">
+    <h3><a href="https://wa.link/o7w8lc">          Whatsapp: 03047100084</a></h3>
+</div>
+<div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+
+
+   </nav>
+    
+    <div class="contact">
+        <div class="whatsapp"><img src="img/CONTACT.png">
+        <h1>Contact with whatsapp and phone number</h1>
+        
+<h1> And send article information  </h1>
+<h2><a href="https://wa.link/o7w8lc">Whatsapp +92 0304-71000-84 </a> </h2>
+<div class="box"><button><a href="https://wa.link/o7w8lc"> place your order now</a></button> </div>
+
+        </div>
+        <div class="whatsapp2">
+<h1>And conform your oder for whatsapp</h1>
+<h4>send your phone number<br>send your city name<br> send your area name<br>send your house no<br>send your street no</h4>
+        </div>
+    </div>
+
+    
+    
+    
+<div class="foot">
+    <div class="log">
+        <h1>T.Luxury...CONTACT NO: 03047100084</h1>
+    </div>
+    
+    
+    
+    
+    </div>
+    </div>
+    
+
+   
+    <script src="java.js"></script>
+</body>
+
+</html>
